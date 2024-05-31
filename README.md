@@ -1,2 +1,5 @@
 # odin-recipes
-Project: Recipes from The Odin Project Foundations Course
+The Odin Project Foundations Course
+Project: Recipes
+
+Learning/Practicing: HTML, CSS, Git, Github

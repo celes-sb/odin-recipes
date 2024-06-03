@@ -1,0 +1,43 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+  padding: 30px;
+  border-color: blueviolet;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul > li {
+  list-style-type: square;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: rgb(189, 43, 226);
+}
+
+p {
+  text-align: justify;
+  font-weight: bold;
+  font-style: italic;
+}

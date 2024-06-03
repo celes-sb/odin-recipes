@@ -1,0 +1,36 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+  padding: 30px;
+  border-color: blueviolet;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+ul {
+  padding: 20px;
+}
+
+ul > li {
+  list-style-type: square;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: rgb(189, 43, 226);
+}
+
+p {
+  font-size: 10px;
+  text-align: end;
+}

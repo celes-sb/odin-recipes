@@ -1,16 +1,21 @@
 body {
   background-color: antiquewhite;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 20px;
   padding: 30px;
-  border-color: blueviolet;
+  border-color: rgba(137, 43, 226, 0.921);
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
+  box-shadow: 1px 1px gray;
+  text-shadow: 1px 1px ivory;
 }
 
 h2 {
+  text-align: left;
+}
+
+h1 {
   text-align: center;
 }
 
@@ -18,10 +23,22 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px rgba(137, 43, 226, 0.921);
+  border-style: solid;
 }
 
-ul > li {
-  list-style-type: square;
+main > .ingredients-steps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 5px;
+  overflow: hidden;
+}
+
+main > .ingredients-steps > div {
+  flex: 1;
+  box-sizing: border-box;
 }
 
 a:link {

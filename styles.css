@@ -1,25 +1,41 @@
 body {
   background-color: antiquewhite;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 20px;
   padding: 30px;
-  border-color: blueviolet;
+  border-color: rgba(137, 43, 226, 0.921);
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
+  box-shadow: 1px 1px gray;
 }
 
-ul {
-  padding: 20px;
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px ivory;
 }
 
-ul > li {
-  list-style-type: square;
+.recipe-box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(76, 0, 255, 0.176);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 5px;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 1px 1px ivory;
+}
+
+.recipe-box:hover {
+background-color: rgba(255, 255, 255, 0.591);
+border-radius: 10px;
+box-shadow: 1px 1px rgba(76, 0, 255, 0.176);
 }
 
 a:link {
   color: blueviolet;
+  text-decoration: none;
 }
 
 a:hover {
